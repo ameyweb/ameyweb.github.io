@@ -20,9 +20,9 @@ function draw() {
 
 }
 function desktoplol(){
-window.open("https://ameyweb.github.io/desktop","_self")
+window.open("desktop-3.0","_self")
 }
 
 function mobilelol(){
-  window.open("https://ameyweb.github.io/mobile","_self")
+  window.open("mobile-3.0","_self")
 }
