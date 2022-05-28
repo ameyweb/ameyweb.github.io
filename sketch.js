@@ -20,9 +20,9 @@ function draw() {
 
 }
 function desktoplol(){
-window.open("desktop-4.0","_self")
+window.open("desktop-4.0res","_self")
 }
 
 function mobilelol(){
-  window.open("mobile-4.0","_self")
+  window.open("mobile-4.0res","_self")
 }
