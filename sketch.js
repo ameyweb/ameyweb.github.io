@@ -1,15 +1,17 @@
 var isMobile = false;
-setInterval(()=>{
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       isMobile = true;
+     }else{
+     console.log("myau");
      }
      if(isMobile){
        mobilelol();
      }
-     if(!isMobile){
+     else if(!isMobile){
        desktoplol();
+     }else{
+     console.log("myau");
      }
-    },1);
 function desktoplol(){
 window.open("desktop-5.0res","_self")
 }
