@@ -1,10 +1,5 @@
 var isMobile = false;
-function preload(){
-
-}
-
-function setup() {
-    createCanvas(windowWidth,windowHeight);
+setInterval(()=>{
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       isMobile = true;
      }
@@ -14,13 +9,9 @@ function setup() {
      if(!isMobile){
        desktoplol();
      }
-}
-
-function draw() {
-
-}
+    },1);
 function desktoplol(){
-window.open("desktop-4.0res","_self")
+window.open("desktop-5.0res","_self")
 }
 
 function mobilelol(){
