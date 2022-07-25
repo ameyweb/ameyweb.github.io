@@ -17,5 +17,5 @@ window.open("desktop-5.0res","_self")
 }
 
 function mobilelol(){
-  window.open("mobile-4.0res","_self")
+  window.open("mobile-5.0res","_self")
 }
